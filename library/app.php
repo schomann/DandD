@@ -25,7 +25,8 @@ function theme_app_settings($settings) {
         "shadingContrast": "body-alt-color",
         "whiteContrast": "body-color",
         "bgContrast": "body-color",
-        "name": "u10"
+        "name": "u10",
+        "customColors": []
     },
     "fontScheme": {
         "name": "Montserrat-OpenSans",

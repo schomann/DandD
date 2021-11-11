@@ -17,7 +17,7 @@ $all = count($wp_query->posts); echo getGridAutoRowsStyles($blogJson, $all);
             <?php if (!is_singular()): ?><a class="u-post-header-link" href="<?php the_permalink(); ?>"><?php endif; ?><?php the_title(); ?><?php if (!is_singular()): ?></a><?php endif; ?>
           </h4><!--/blog_post_header--><!--blog_post_image-->
           <?php
-                            $post_image = theme_get_post_image(array('class' => 'u-blog-control u-expanded-width u-image u-image-default u-image-1', 'default' => '/images/1.jpeg'));
+                            $post_image = theme_get_post_image(array('class' => 'u-blog-control u-expanded-width u-image u-image-default u-image-1', 'default' => '/images/2.jpeg'));
                             if ($post_image) echo $post_image; else { echo '<div class="none-post-image" style="display: none;"></div>'; $skip_min_height = true; } ?><!--/blog_post_image--><!--blog_post_content-->
           <div class="u-blog-control u-post-content u-text u-text-2"><?php echo !is_search() && (is_singular() || $post->post_type !== 'post') ? theme_get_content() : theme_get_excerpt(); ?></div><!--/blog_post_content--><!--blog_post_readmore-->
           <a href="<?php the_permalink(); ?>" class="u-blog-control u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-none u-btn-1"><?php _e(sprintf(__('<!--options_json--><!--{"content":""}--><!--/options_json-->Read More', 'dandd'))); ?></a><!--/blog_post_readmore-->
@@ -29,7 +29,7 @@ $all = count($wp_query->posts); echo getGridAutoRowsStyles($blogJson, $all);
             <?php if (!is_singular()): ?><a class="u-post-header-link" href="<?php the_permalink(); ?>"><?php endif; ?><?php the_title(); ?><?php if (!is_singular()): ?></a><?php endif; ?>
           </h4><!--/blog_post_header--><!--blog_post_image-->
           <?php
-                            $post_image = theme_get_post_image(array('class' => 'u-blog-control u-expanded-width u-image u-image-default u-image-2', 'default' => '/images/2.jpeg'));
+                            $post_image = theme_get_post_image(array('class' => 'u-blog-control u-expanded-width u-image u-image-default u-image-2', 'default' => '/images/3.jpeg'));
                             if ($post_image) echo $post_image; else { echo '<div class="none-post-image" style="display: none;"></div>'; $skip_min_height = true; } ?><!--/blog_post_image--><!--blog_post_content-->
           <div class="u-blog-control u-post-content u-text u-text-4"><?php echo !is_search() && (is_singular() || $post->post_type !== 'post') ? theme_get_content() : theme_get_excerpt(); ?></div><!--/blog_post_content--><!--blog_post_readmore-->
           <a href="<?php the_permalink(); ?>" class="u-blog-control u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-none u-btn-2"><?php _e(sprintf(__('<!--options_json--><!--{"content":""}--><!--/options_json-->Read More', 'dandd'))); ?></a><!--/blog_post_readmore-->
@@ -41,7 +41,7 @@ $all = count($wp_query->posts); echo getGridAutoRowsStyles($blogJson, $all);
             <?php if (!is_singular()): ?><a class="u-post-header-link" href="<?php the_permalink(); ?>"><?php endif; ?><?php the_title(); ?><?php if (!is_singular()): ?></a><?php endif; ?>
           </h4><!--/blog_post_header--><!--blog_post_image-->
           <?php
-                            $post_image = theme_get_post_image(array('class' => 'u-blog-control u-expanded-width u-image u-image-default u-image-3', 'default' => '/images/3.jpeg'));
+                            $post_image = theme_get_post_image(array('class' => 'u-blog-control u-expanded-width u-image u-image-default u-image-3', 'default' => '/images/4.jpeg'));
                             if ($post_image) echo $post_image; else { echo '<div class="none-post-image" style="display: none;"></div>'; $skip_min_height = true; } ?><!--/blog_post_image--><!--blog_post_content-->
           <div class="u-blog-control u-post-content u-text u-text-6"><?php echo !is_search() && (is_singular() || $post->post_type !== 'post') ? theme_get_content() : theme_get_excerpt(); ?></div><!--/blog_post_content--><!--blog_post_readmore-->
           <a href="<?php the_permalink(); ?>" class="u-blog-control u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-none u-btn-3"><?php _e(sprintf(__('<!--options_json--><!--{"content":""}--><!--/options_json-->Read More', 'dandd'))); ?></a><!--/blog_post_readmore-->

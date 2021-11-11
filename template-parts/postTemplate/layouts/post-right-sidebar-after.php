@@ -1,4 +1,5 @@
-<div class="u-page-root"><div class="u-content-layout u-sheet">
+
+          </div>
           <?php $sidebar_html = theme_sidebar(array(
             'id' => 'primary',
             'template' => <<<WIDGET_TEMPLATE
@@ -9,7 +10,7 @@
         </div>
     </div>
 WIDGET_TEMPLATE
-        )); ?> <aside data-id="037e" class="u-sidebar u-indent-40" style="flex-basis: auto; width: 250px;"><?php if ($sidebar_html) { echo stylingDefaultControls($sidebar_html); } else { ?> <div class="u-block u-indent-30">
+        )); ?> <aside data-id="037e" class="u-indent-40 u-sidebar" style="flex-basis: auto; width: 250px;"><?php if ($sidebar_html) { echo stylingDefaultControls($sidebar_html); } else { ?> <div class="u-block u-indent-30">
         <div class="u-block-container u-clearfix">
             <h5 class="u-block-header u-text" style="font-size: 1.125rem; line-height: 2;">
                 Block header
@@ -19,5 +20,4 @@ WIDGET_TEMPLATE
             </div>
         </div>
     </div> <?php } ?></aside>
-          <div class="u-content">
-             
+        </div></div>

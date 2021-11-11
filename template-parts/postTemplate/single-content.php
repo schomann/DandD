@@ -5,7 +5,7 @@
     <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
       <div class="u-container-layout u-valign-middle u-container-layout-1"><!--blog_post_image-->
         <?php
-                            $post_image = theme_get_post_image(array('class' => 'u-blog-control u-expanded-width u-image u-image-default u-image-1', 'default' => '/images/1.jpeg'));
+                            $post_image = theme_get_post_image(array('class' => 'u-blog-control u-expanded-width u-image u-image-default u-image-1', 'default' => '/images/2.jpeg'));
                             if ($post_image) echo $post_image; else { echo '<div class="none-post-image" style="display: none;"></div>'; $skip_min_height = true; } ?><!--/blog_post_image--><!--blog_post_header-->
         <h2 class="u-blog-control u-text u-text-1">
           <?php if (!is_singular()): ?><a class="u-post-header-link" href="<?php the_permalink(); ?>"><?php endif; ?><?php the_title(); ?><?php if (!is_singular()): ?></a><?php endif; ?>
