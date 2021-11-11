@@ -14,16 +14,7 @@
 </footer>
         
 <?php } ?>
-        <?php $showBackLink = get_option('np_hide_backlink') ? false : true; ?>
-<?php if ($showBackLink) : $GLOBALS['theme_backlink'] = true; ?>
-<section class="u-backlink u-clearfix u-grey-80">
-            <a class="u-link" href="Best WordPress Theme" target="_blank">
-        <span>https://nicepage.com/wordpress-themes</span>
-            </a>
-        <p class="u-text"><span>created with</span></p>
-        <a class="u-link" href="https://nicepage.com/wordpress-website-builder" target="_blank"><span>WordPress Website Builder</span></a>.
-    </section>
-<?php endif; ?>
+        
         
 	</div><!-- .site-inner -->
 </div><!-- #page -->
